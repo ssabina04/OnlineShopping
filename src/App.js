@@ -1,19 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from "./Components/Header/Header";
+import React from 'react';
+import { Switch } from 'react-router-dom';
+import Header from './Components/Header/Header';
 
 
-function App() {
+
+
+const App = () => {
+  
   return (
-  <>
-    <Header/>
-  </>
-    
+    <div>
+      <Header />
 
-   
-
-
+     
+    </div>
   );
-}
+};
 
 export default App;
